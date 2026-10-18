@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mark Joseph Navarro | Freelance Web Designer & SEO Specialist, Manila</title>
-<meta name="description" content="Freelance web designer and SEO specialist in Manila with 17+ years of experience, working with US clients in fitness, education, BPO and wellness.">
-<link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+<title>Mark Joseph Navarro | Web Designer & SEO Specialist, Manila</title>
+<meta name="description" content="Web designer and SEO specialist with 17+ years of experience. 200+ client websites built on WordPress, Duda, Squarespace and Wix, for US clients in health, fitness, education, travel and e-commerce.">
+<link rel="canonical" href="https://ahrean9820.github.io/">
 <meta property="og:title" content="Mark Joseph Navarro: Web Designer & SEO Specialist">
 <meta property="og:description" content="Websites that look sharp and get found. 17+ years of experience.">
 <meta property="og:type" content="website">
@@ -19,7 +19,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
 a{color:var(--link)}
-a:focus-visible,button:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+a:focus-visible{outline:3px solid var(--link);outline-offset:3px}
 h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
 .wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
 nav{display:flex;gap:1.25rem;flex-wrap:wrap;padding:1.25rem 0;font-weight:500}
@@ -29,29 +29,37 @@ nav .name{margin-right:auto;font-family:"Bricolage Grotesque",sans-serif;font-we
 .hero{padding:3rem 0 4rem}
 .hero h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:700;max-width:14ch;letter-spacing:-.02em}
 .hero p.lead{max-width:38rem;color:var(--muted);margin:1.25rem 0 2rem}
-.serp{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.25rem 1.5rem;max-width:40rem;box-shadow:0 1px 0 var(--line)}
-.serp .u{color:var(--url);font-size:.9rem;margin:0}
+.serp{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.25rem 1.5rem;max-width:40rem}
+.serp p{margin:0}
+.serp .rank{font-size:.8rem;color:var(--muted);margin-bottom:.6rem}
+.serp .u{color:var(--url);font-size:.9rem}
 .serp .t{font:500 1.35rem/1.3 "IBM Plex Sans",sans-serif;color:var(--link);margin:.15rem 0}
-.serp .d{margin:0;color:var(--muted);font-size:.98rem}
+.serp .d{color:var(--muted);font-size:.98rem}
 .serp mark{background:var(--mark);color:inherit;padding:0 .15em}
-.serp .rank{font-size:.8rem;color:var(--muted);margin:0 0 .6rem}
+.stats{display:flex;flex-wrap:wrap;gap:.5rem 2rem;margin-top:1.75rem;color:var(--muted);font-size:.98rem}
+.stats b{color:var(--ink);font-weight:500}
 section{padding:3.5rem 0;border-top:1px solid var(--line)}
-section>.wrap>h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:1.75rem}
+section h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:1.75rem}
 .grid{display:grid;gap:2rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
 .grid h3{font-size:1.25rem;margin-bottom:.4rem}
 .grid p{margin:0;color:var(--muted)}
 .work{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
 .case{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.5rem}
-.case h3{font-size:1.2rem;margin-bottom:.5rem}
+.case h3{font-size:1.2rem;margin-bottom:.4rem}
 .case p{margin:.4rem 0;color:var(--muted)}
-.case .tag{font-size:.88rem;color:var(--ink);font-weight:500}
+.case .tag{font-size:.9rem;color:var(--ink);font-weight:500}
 .btn{display:inline-block;background:var(--ink);color:var(--bg);padding:.7rem 1.25rem;border-radius:8px;text-decoration:none;font-weight:500;margin-top:1.5rem}
 .btn:hover{opacity:.88}
-.timeline{list-style:none;margin:0;padding:0;max-width:40rem}
-.timeline li{display:grid;grid-template-columns:7rem 1fr;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--line)}
+.timeline{list-style:none;margin:0;padding:0;max-width:46rem}
+.timeline li{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--line)}
 .timeline b{font-weight:500}
 .timeline span{color:var(--muted)}
+.timeline em{display:block;font-style:normal;color:var(--ink);font-weight:500}
+.skills{max-width:46rem}
+.skills h3{font-size:1.1rem;margin:1.25rem 0 .3rem}
+.skills p{margin:0;color:var(--muted)}
 footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
+@media (max-width:34rem){.timeline li{grid-template-columns:1fr;gap:.2rem}}
 @media (prefers-reduced-motion:no-preference){.serp{animation:in .6s ease-out both}@keyframes in{from{opacity:0;transform:translateY(8px)}}}
 </style>
 </head>
@@ -62,17 +70,24 @@ footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
     <a href="#services">Services</a>
     <a href="#work">Work</a>
     <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <header class="hero">
     <h1>Websites that look sharp and get found.</h1>
-    <p class="lead">I design and build websites, then make sure the right people can find them. Freelance web designer and SEO specialist in Manila, working with US clients since 2008.</p>
+    <p class="lead">I design and build websites, then optimize them for search. Web designer and SEO specialist in Manila, working with US clients and agencies.</p>
     <div class="serp" aria-label="Search result style summary">
       <p class="rank">Result #1 for “web designer who also does SEO”</p>
-      <p class="u">markjoseph.dev › web-design › seo</p>
-      <p class="t">Mark Joseph Navarro | Web Design &amp; SEO, Manila</p>
-      <p class="d">17+ years designing <mark>websites</mark> and ranking them. Active with US clients in fitness, education, BPO and wellness. Content and marketing assets included.</p>
+      <p class="u">YOUR-USERNAME.github.io › web-design › seo</p>
+      <p class="t">Mark Joseph Navarro | Web Designer &amp; SEO Specialist</p>
+      <p class="d">17+ years building <mark>websites</mark> on WordPress, Duda, Squarespace and Wix. 200+ client sites at a US agency. On-page SEO, analytics and email marketing included.</p>
+    </div>
+    <div class="stats">
+      <span><b>17+</b> years in web design</span>
+      <span><b>200+</b> client sites built</span>
+      <span><b>3,000+</b> hotel landing pages</span>
+      <span><b>7 years</b> with one long-term client</span>
     </div>
   </header>
 </div>
@@ -80,20 +95,20 @@ footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
 <section id="services"><div class="wrap">
   <h2>What I do</h2>
   <div class="grid">
-    <div><h3>Web design</h3><p>Custom, responsive sites built around what your visitors need to do, from first click to booking or inquiry.</p></div>
-    <div><h3>SEO</h3><p>Technical fixes, on-page optimization and content structure that help your pages earn search traffic.</p></div>
-    <div><h3>Content and marketing assets</h3><p>Page copy, graphics and campaign assets that match your site and your brand.</p></div>
-    <div><h3>Ongoing support</h3><p>Virtual assistant and site maintenance for clients who want one dependable person across several tasks.</p></div>
+    <div><h3>Web design and builds</h3><p>Responsive sites on WordPress, Duda, Squarespace and Wix, from design through launch, migration and maintenance.</p></div>
+    <div><h3>SEO</h3><p>Site audits, keyword research, on-page optimization, backlink building and site speed work, tracked in Google Analytics and Search Console.</p></div>
+    <div><h3>Email and ad marketing</h3><p>Monthly Mailchimp campaigns, plus Facebook and YouTube ad banners and promotional videos.</p></div>
+    <div><h3>Graphics and video</h3><p>Branded graphics and social content in Photoshop, Illustrator and Canva, with video edited in DaVinci Resolve.</p></div>
   </div>
 </div></section>
 
 <section id="work"><div class="wrap">
   <h2>Selected work</h2>
   <div class="work">
-    <article class="case"><h3>Fitness facility</h3><p class="tag">Web design · Local SEO</p><p>Replace with a short result, e.g. what changed and what improved.</p></article>
-    <article class="case"><h3>Education client</h3><p class="tag">Web design · Content</p><p>Replace with a short result, e.g. what changed and what improved.</p></article>
-    <article class="case"><h3>BPO company</h3><p class="tag">SEO · Marketing assets</p><p>Replace with a short result, e.g. what changed and what improved.</p></article>
-    <article class="case"><h3>Wellness brand</h3><p class="tag">Web design · SEO</p><p>Replace with a short result, e.g. what changed and what improved.</p></article>
+    <article class="case"><h3>AAMP Agency</h3><p class="tag">Web design · SEO · Maintenance</p><p>Developed and maintained 200+ responsive client websites on WordPress and Duda, including speed optimization, SEO and ongoing troubleshooting.</p></article>
+    <article class="case"><h3>Triple Crown Athletic</h3><p class="tag">Web design · SEO · Video · Analytics</p><p>Lead web designer and digital marketer for a fitness facility in Kentucky across a 7-year engagement.</p></article>
+    <article class="case"><h3>Asiatravel</h3><p class="tag">Landing pages · Email · Templates</p><p>Produced 3,000+ hotel landing pages across Asia and built a template system that cut page development time by 30%.</p></article>
+    <article class="case"><h3>H.I.S. Philippines Travel</h3><p class="tag">Web design · IT</p><p>Built the company’s English marketing website from scratch, integrated with a mobile application.</p></article>
   </div>
   <a class="btn" href="https://www.behance.net/ahrean9820">See full case studies on Behance</a>
 </div></section>
@@ -101,24 +116,35 @@ footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
 <section id="experience"><div class="wrap">
   <h2>Experience</h2>
   <ul class="timeline">
-    <li><b>2019 – now</b><span>Virtual assistant work alongside freelance design and SEO for US clients</span></li>
-    <li><b>2008 – now</b><span>Web design, from small business sites to multi-page client projects</span></li>
-    <li><b>Earlier</b><span>Asia Premier One Source, H.I.S. Philippines Travel, Asiatravel Philippines Inc.</span></li>
-    <li><b>Education</b><span>BS Computer Science, AMA Computer University</span></li>
+    <li><b>Jun 2019 – now</b><span><em>Freelance Web Designer &amp; SEO Specialist</em>Websites for health, fitness, automotive, education and business clients, with SEO audits, graphics and video.</span></li>
+    <li><b>Apr 2023 – Nov 2025</b><span><em>Web Designer, AAMP Agency (remote)</em>200+ client sites on WordPress and Duda.</span></li>
+    <li><b>Feb 2018 – Mar 2019</b><span><em>Web &amp; Graphic Designer, Asia Premier One Source</em>Custom WordPress sites, Mailchimp campaigns and ad assets.</span></li>
+    <li><b>Sep 2015 – Mar 2017</b><span><em>Web Designer, H.I.S. Philippines Travel</em>Company website, branch networking and a government-compliant invoice system.</span></li>
+    <li><b>Jan 2008 – Sep 2015</b><span><em>Web Designer, Asiatravel Philippines Inc.</em>3,000+ landing pages. Officer-in-Charge of the web team and acting team lead of four designers for 1.5 years.</span></li>
+    <li><b>2007</b><span><em>BS Computer Science, AMA Computer University</em>Best in Web Design Contest awardee.</span></li>
   </ul>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills and tools</h2>
+  <div class="skills">
+    <h3>Web and design</h3><p>WordPress, Duda, Squarespace, Wix, Elementor, Divi, HTML, CSS3, Bootstrap, Figma, Adobe XD, Photoshop, Illustrator, After Effects, Canva, DaVinci Resolve</p>
+    <h3>SEO and analytics</h3><p>On-page SEO, Google Analytics, Search Console, Tag Manager, Google Business Profile, Google Ads, Looker Studio, SEMrush, Ubersuggest, Lighthouse, conversion rate optimization</p>
+    <h3>Marketing and tools</h3><p>Mailchimp, HubSpot, WooCommerce, Shopify, Facebook and YouTube Ads, Asana, Trello, Slack, cPanel, ManageWP</p>
+  </div>
 </div></section>
 
 <section id="contact"><div class="wrap">
   <h2>Let’s talk about your site</h2>
   <p>Tell me what you’re building or what isn’t working, and I’ll reply with next steps.</p>
-  <p><a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a><br>
+  <p><a href="mailto:ahrean9820@gmail.com">ahrean9820@gmail.com</a><br>
   <a href="https://www.linkedin.com/in/mark-joseph-navarro-b8444862">LinkedIn</a> · <a href="https://www.behance.net/ahrean9820">Behance</a></p>
 </div></section>
 
 <footer><div class="wrap">© 2026 Mark Joseph Navarro. Based in Manila, Philippines.</div></footer>
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Mark Joseph Navarro","jobTitle":"Freelance Web Designer and SEO Specialist","address":{"@type":"PostalAddress","addressLocality":"Manila","addressCountry":"PH"},"sameAs":["https://www.behance.net/ahrean9820","https://www.linkedin.com/in/mark-joseph-navarro-b8444862"]}
+{"@context":"https://schema.org","@type":"Person","name":"Mark Joseph Navarro","jobTitle":"Web Designer and SEO Specialist","email":"ahrean9820@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Manila","addressCountry":"PH"},"alumniOf":"AMA Computer University","sameAs":["https://www.behance.net/ahrean9820","https://www.linkedin.com/in/mark-joseph-navarro-b8444862"]}
 </script>
 </body>
 </html>
