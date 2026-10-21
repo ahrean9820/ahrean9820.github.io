@@ -1,18 +1,15 @@
-# Mark Joseph Navarro | Portfolio
+<img src="profile.jpg" alt="Mark Joseph Navarro" width="140" align="right">
 
-Freelance web designer and SEO specialist based in Manila.
+# Hi, I'm Mark Joseph Navarro
 
-Live site: https://YOUR-USERNAME.github.io/
+**Web Designer · SEO Specialist · Virtual Assistant** based in Manila, Philippines.
 
-## Deploy on GitHub Pages
+I've been building websites since 2008 and work remotely with US clients during US business hours.
 
-1. On GitHub, create a **public** repository named `YOUR-USERNAME.github.io`.
-2. Upload `index.html` and this `README.md` to the repository root.
-3. Go to **Settings → Pages**, set the source to **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-4. After a minute or two the site is live at `https://YOUR-USERNAME.github.io/`.
+- Built and maintained 200+ client websites in WordPress, Duda, Squarespace and Wix
+- Long-running SEO and design work for fitness, education, BPO and wellness businesses
+- Email marketing, graphics and video alongside the sites
 
-## Before you publish
-
-- Replace `YOUR-USERNAME` in `index.html` (three places) with your GitHub username.
-- Check the work cards and add links or screenshots for each project.
-- Update the `canonical` link and the example URL in the search-result box once you know your final address.
+**Portfolio and resume:** https://ahrean9820.github.io
+**Behance:** https://www.behance.net/ahrean9820 · **Dribbble:** https://dribbble.com/ahreanx · **LinkedIn:** https://www.linkedin.com/in/mark-joseph-navarro-b8444862
+**Email:** ahrean9820@gmail.com

@@ -2,176 +2,169 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mark Joseph Navarro | Web Designer, Digital Marketing, Virtual Assistant & SEO Specialist, Manila</title>
-<meta name="description" content="Web Designer, Digital Marketing, Virtual Assistant & SEO Specialist with 17+ years of experience. 200+ client websites built on WordPress, Duda, Squarespace and Wix, for US clients in health, fitness, education, travel and e-commerce.">
-<link rel="canonical" href="https://ahrean9820.github.io/">
-<meta property="og:title" content="Mark Joseph Navarro: Web Designer, Digital Marketing, Virtual Assistant & SEO Specialist">
-<meta property="og:description" content="Websites that look sharp and get found. 17+ years of experience.">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Mark Joseph Navarro: web designer, SEO specialist and virtual assistant in Manila with 17+ years of experience, working with US clients.">
+<title>Mark Joseph Navarro · Web Designer, SEO &amp; Virtual Assistant</title>
 <style>
-:root{--bg:#EEF2F5;--surface:#fff;--ink:#14213D;--muted:#4A5568;--link:#1A0DAB;--url:#0B6B38;--mark:#FFE45C;--line:#CBD5DF}
-@media (prefers-color-scheme:dark){:root{--bg:#0E1626;--surface:#16213A;--ink:#EAF0F7;--muted:#A9B6C8;--link:#9DB8FF;--url:#6FD39A;--mark:#7A6A12;--line:#2A3957}}
+:root{--bg:#faf8f4;--card:#fff;--text:#1f2430;--muted:#5d6472;--accent:#2f5d50;--line:#e4e0d8;--chip:#e9f1ee;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14181c;--card:#1c2228;--text:#eceff2;--muted:#9aa4b0;--accent:#7cc4ac;--line:#2c343c;--chip:#22302c}}
+:root[data-theme="dark"]{--bg:#14181c;--card:#1c2228;--text:#eceff2;--muted:#9aa4b0;--accent:#7cc4ac;--line:#2c343c;--chip:#22302c}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "IBM Plex Sans",system-ui,sans-serif}
-a{color:var(--link)}
-a:focus-visible{outline:3px solid var(--link);outline-offset:3px}
-h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
-.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
-nav{display:flex;gap:1.25rem;flex-wrap:wrap;padding:1.25rem 0;font-weight:500}
-nav a{color:var(--ink);text-decoration:none}
-nav a:hover{text-decoration:underline}
-nav .name{margin-right:auto;font-family:"Bricolage Grotesque",sans-serif;font-weight:700}
-.hero{padding:3rem 0 4rem}
-.hero h1{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:700;max-width:14ch;letter-spacing:-.02em}
-.hero p.lead{max-width:38rem;color:var(--muted);margin:1.25rem 0 2rem}
-.serp{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.25rem 1.5rem;max-width:40rem}
-.serp p{margin:0}
-.serp .rank{font-size:.8rem;color:var(--muted);margin-bottom:.6rem}
-.serp .u{color:var(--url);font-size:.9rem}
-.serp .t{font:500 1.35rem/1.3 "IBM Plex Sans",sans-serif;color:var(--link);margin:.15rem 0}
-.serp .d{color:var(--muted);font-size:.98rem}
-.serp mark{background:var(--mark);color:inherit;padding:0 .15em}
-.stats{display:flex;flex-wrap:wrap;gap:.5rem 2rem;margin-top:1.75rem;color:var(--muted);font-size:.98rem}
-.stats b{color:var(--ink);font-weight:500}
-section{padding:3.5rem 0;border-top:1px solid var(--line)}
-section h2{font-size:clamp(1.7rem,4vw,2.4rem);margin-bottom:1.75rem}
-.grid{display:grid;gap:2rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
-.grid h3{font-size:1.25rem;margin-bottom:.4rem}
-.grid p{margin:0;color:var(--muted)}
-.work{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
-.case{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.5rem}
-.case h3{font-size:1.2rem;margin-bottom:.4rem}
-.case p{margin:.4rem 0;color:var(--muted)}
-.case .tag{font-size:.9rem;color:var(--ink);font-weight:500}
-.btn{display:inline-block;background:var(--ink);color:var(--bg);padding:.7rem 1.25rem;border-radius:8px;text-decoration:none;font-weight:500;margin-top:1.5rem}
-.btn:hover{opacity:.88}
-.timeline{list-style:none;margin:0;padding:0;max-width:46rem}
-.timeline li{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--line)}
-.timeline b{font-weight:500}
-.timeline span{color:var(--muted)}
-.timeline em{display:block;font-style:normal;color:var(--ink);font-weight:500}
-.skills{max-width:46rem}
-.skills h3{font-size:1.1rem;margin:1.25rem 0 .3rem}
-.skills p{margin:0;color:var(--muted)}
-footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem}
-@media (max-width:34rem){.timeline li{grid-template-columns:1fr;gap:.2rem}}
-@media (prefers-reduced-motion:no-preference){.serp{animation:in .6s ease-out both}@keyframes in{from{opacity:0;transform:translateY(8px)}}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+nav{display:flex;flex-wrap:wrap;gap:6px 18px;padding:16px 0;font-size:14px}
+nav a{color:var(--muted);text-decoration:none;font-weight:600}
+nav a:hover{color:var(--accent)}
+header{display:flex;gap:28px;align-items:center;flex-wrap:wrap;padding:24px 0 40px}
+header img{width:168px;height:168px;border-radius:50%;object-fit:cover;border:4px solid var(--accent)}
+.hd{flex:1;min-width:260px}
+.tag{color:var(--accent);font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:13px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(32px,6vw,50px);line-height:1.1;margin:6px 0 12px}
+.lead{font-size:18px;color:var(--muted);margin:0 0 18px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-weight:600}
+.btn.primary{background:var(--accent);color:var(--bg)}
+section{padding:30px 0;border-top:1px solid var(--line)}
+h2{font-family:Georgia,serif;font-size:26px;margin:0 0 16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:18px}
+.stat,.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.stat b{display:block;font-size:24px;color:var(--accent)}
+.stat span{font-size:14px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:6px 0 0;color:var(--muted);font-size:15px}
+.chip{display:inline-block;background:var(--chip);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:12px;font-weight:600;margin-bottom:8px}
+.feature{border-left:4px solid var(--accent);margin-bottom:14px}
+ul{padding-left:20px;margin:8px 0}
+li{margin:3px 0}
+.job{padding:0 0 22px 18px;border-left:2px solid var(--line);position:relative;margin-left:6px}
+.job:before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.job h3{margin:0;font-size:18px}
+.job .meta{color:var(--muted);font-size:14px;margin-bottom:4px}
+.skillgroup{margin-bottom:14px}
+.skillgroup h3{font-size:15px;margin:0 0 8px;color:var(--accent)}
+.skills{display:flex;flex-wrap:wrap;gap:8px}
+.skills span{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:3px 10px;font-size:14px}
+a.l{color:var(--accent)}
+footer{padding:30px 0 50px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <nav aria-label="Main">
-    <span class="name">Mark Joseph Navarro</span>
-    <a href="#services">Services</a>
-    <a href="#work">Work</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<nav><a href="#about">About</a><a href="#work">Portfolio</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
 
-  <header class="hero">
-    <h1>Looking for Web Designer?</h1>
-    <p class="lead">Hi my name is Mark and I have more than 17 years of experience as Web Designer supporting different industries like BPO, Wellness, Fitness, medical, education and Hospitality in United States and Philippines. As a Web designer, I do creating websites, troubleshooting the website, Editing the contents and creating marketing Assets.</p>
-    <div class="serp" aria-label="Search result style summary">
-    <p class="t">Mark Joseph Navarro | Web Designer, Digital Marketing, Virtual Assistant &amp; SEO Specialist</p>
-    <p class="d"><a href="mailto:ahrean9820@gmail.com">Email Me</a></p>
-    <p class="d">Manila, Philippines</p>
-    <p class="d"><a href="tel:+639459722090">Call Me</a></p>
+<header>
+  <img src="profile.jpg" alt="Portrait of Mark Joseph Navarro" width="168" height="168">
+  <div class="hd">
+    <div class="tag">Web Designer · SEO Specialist · Virtual Assistant</div>
+    <h1>Mark Joseph Navarro</h1>
+    <p class="lead">17+ years building and optimizing websites. Based in Manila, available for remote work during US business hours.</p>
+    <div class="btns">
+      <a class="btn primary" href="resume.pdf">Download resume (PDF)</a>
+      <a class="btn" href="#contact">Get in touch</a>
+      <a class="btn" href="https://www.behance.net/ahrean9820">Behance</a>
     </div>
-    <div class="stats">
-      <span><b>17+</b> years in web design</span>
-      <span><b>200+</b> client sites built</span>
-      <span><b>3,000+</b> hotel landing pages</span>
-      <span><b>7 years</b> with one long-term client</span>
-    </div>
-  </header>
-</div>
+  </div>
+</header>
 
-<section id="services"><div class="wrap">
-  <h2>What I do</h2>
+<section id="about">
+  <h2>About</h2>
+  <p>I’m a results-driven web designer and SEO specialist with experience across web design, graphic design, email marketing and search optimization. I manage website builds from start to finish in WordPress, Duda, Squarespace and Wix, and I drive organic traffic through on-page SEO, Google Analytics and keyword strategy.</p>
+  <p>I was a remote web designer for a US agency from 2023 to 2025, and I’ve worked independently with US clients since June 2019, supporting about five of them today across fitness, education, BPO and wellness.</p>
+  <div class="stats">
+    <div class="stat"><b>17+</b><span>years in web design</span></div>
+    <div class="stat"><b>200+</b><span>client sites built and maintained</span></div>
+    <div class="stat"><b>3,000+</b><span>hotel landing pages produced</span></div>
+    <div class="stat"><b>7 yrs</b><span>with my longest-running client</span></div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Portfolio</h2>
+  <div class="card feature">
+    <span class="chip">Featured · Fitness</span>
+    <h3>Triple Crown Athletic</h3>
+    <p>A fitness facility in Walton, Kentucky, and my client since 2019. I lead web and graphic design and also handle SEO, video, social media and data entry across their family of sites: Triple Crown CrossFit, My Strength Matters, Stunt Actor Network and The Call Center Guy.</p>
+    <ul>
+      <li>Raised the site’s GTmetrix grade from E to C (2026), with a 969ms Largest Contentful Paint, 0.04 Cumulative Layout Shift and an 84% structure score.</li>
+      <li>Track 19 local SEO keywords: as of Oct 2026, 12 rank in the top 5 and 10 in the top 3 on desktop, including #1 for “kickboxing gym walton ky” and “brazilian jiu-jitsu walton ky.”</li>
+      <li>About 2.5K page views and 1K new visitors in a 28-day period (Sept 21 – Oct 18, 2026).</li>
+      <li>Deliver a monthly web and competitor analysis covering site audit, keyword rankings, speed tests and engagement.</li>
+    </ul>
+  </div>
   <div class="grid">
-    <div><h3>Web design and builds</h3><p>Responsive sites on WordPress, Duda, Squarespace and Wix, from design through launch, migration and maintenance.</p></div>
-    <div><h3>SEO</h3><p>Site audits, keyword research, on-page optimization, backlink building and site speed work, tracked in Google Analytics and Search Console.</p></div>
-    <div><h3>Email and ad marketing</h3><p>Monthly Mailchimp campaigns, plus Facebook and YouTube ad banners and promotional videos.</p></div>
-    <div><h3>Graphics and video</h3><p>Branded graphics and social content in Photoshop, Illustrator and Canva, with video edited in DaVinci Resolve.</p></div>
+    <div class="card"><span class="chip">BPO &amp; consulting</span><h3>The Call Center Guy</h3><p>Website for a consulting, BPO and virtual assistant services brand.</p></div>
+    <div class="card"><span class="chip">Fitness</span><h3>Dare2Lift</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Wellness</span><h3>One Life Mind and Body</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Education</span><h3>Learneum</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Education</span><h3>Beyond Technology Education</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Solar</span><h3>Fund 4 Solar</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Web design</span><h3>Respira Global</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Web design</span><h3>CreateFirm</h3><p>Website design and launch.</p></div>
+    <div class="card"><span class="chip">Email marketing</span><h3>Deutsch Fabriken</h3><p>Multi-email drip campaign for a German ergonomic furniture maker reaching Boston charter schools.</p></div>
   </div>
-</div></section>
+  <p style="margin-top:16px"><a class="l" href="https://www.behance.net/ahrean9820">Full case studies on Behance →</a> · <a class="l" href="https://dribbble.com/ahreanx">Dribbble →</a></p>
+</section>
 
-<section id="work"><div class="wrap">
-  <h2>Selected work</h2>
-  <div class="work">
-    <article class="case"><h3>AAMP Agency</h3><p class="tag">Web design · SEO · Maintenance</p><p>Developed and maintained 200+ responsive client websites on WordPress and Duda, including speed optimization, SEO and ongoing troubleshooting.</p></article>
-    <article class="case"><h3>Triple Crown Athletic</h3><p class="tag">Web design · SEO · Video · Analytics</p><p>Lead web designer and digital marketer for a fitness facility in Kentucky across a 7-year engagement.</p></article>
-    <article class="case"><h3>Asiatravel</h3><p class="tag">Landing pages · Email · Templates</p><p>Produced 3,000+ hotel landing pages across Asia and built a template system that cut page development time by 30%.</p></article>
-    <article class="case"><h3>H.I.S. Philippines Travel</h3><p class="tag">Web design · IT</p><p>Built the company’s English marketing website from scratch, integrated with a mobile application.</p></article>
-  </div>
-  <a class="btn" href="https://www.behance.net/ahrean9820">See full case studies on Behance</a>
-</div></section>
-
-<section id="experience"><div class="wrap">
+<section id="experience">
   <h2>Experience</h2>
-  <ul class="timeline">
-    <li><b>Jun 2019 – now</b><span><em>Freelance Web Designer &amp; SEO Specialist</em>
-          <br>• Designed and launched websites for multiple clients across health, fitness, automotive, education, and business services industries using WordPress, Squarespace, and Wix.
-          <br>• Managed a 7-year ongoing engagement with Triple Crown Athletic LLC as lead Web Designer and Digital Marketer, overseeing design, SEO, video production, and analytics reporting.
-          <br>• Conducted SEO audits and implemented on-page optimizations across all projects, improving organic search visibility and  keyword rankings.
-          <br>• Produced branded graphics, social media content, and video assets using Adobe Photoshop, Canva, and DaVinci Resolve.
-    </span></li>
-    <li><b>Apr 2023 – Nov 2025</b><span><em>Web Designer, AAMP Agency (remote)</em> 
-          <br>• Developed and maintained 200+ responsive client websites using WordPress and Duda CMS, applying best practices in UI/UX, performance optimization, and cross-browser compatibility.
-          <br>• Optimized website images and media assets to reduce page load times, enhancing site speed and overall user experience.
-          <br>• Executed on-page and off-page SEO strategies, including keyword research, backlink building, and Google Analytics monitoring, to boost search rankings and organic visibility.
-          <br>• Performed routine web maintenance and troubleshooting across all client sites, maintaining consistent uptime and resolving technical issues proactively.
-    <li><b>Feb 2018 – Mar 2019</b><span><em>Web &amp; Graphic Designer, Asia Premier One Source</em>
-          <br>• Delivered 2 major website projects for clients using WordPress with custom themes.
-          <br>• Maintained on-page SEO elements including titles, meta descriptions, and keyword targeting.
-          <br>• Executed monthly email marketing campaigns via Mailchimp for Shopify and ShareASale products.
-          <br>• Produced social media banners and promotional videos for Facebook and YouTube advertising.
-          <br>• Transitioned to Marketing team: built PowerPoint presentations, recruitment collateral, and competitive analysis.
-    </span></li>
-    <li><b>Sep 2015 – Mar 2017</b><span><em>Web Designer, H.I.S. Philippines Travel</em>
-          <br>• Built the company's English marketing website from scratch, integrated with a mobile application.
-          <br>• Configured VPN to interconnect two company branches; managed network and hardware troubleshooting.
-          <br>• Developed a BIR Invoice System for printing government-compliant invoices using Visual Basic 6.0.
-          <br>• Handled phone tagging, software support, and general IT operations.
-    </span></li>
-    <li><b>Jan 2008 – Sep 2015</b><span><em>Web Designer, Asiatravel Philippines Inc.</em>
-          <br>• Produced 3,000+ hotel landing pages across major Asian destinations (Nepal, Sri Lanka, Indonesia, Japan, South Korea, and more) using the company's proprietary CMS.
-          <br>• Led monthly email marketing campaigns promoting hotels and travel packages across countries and cities.
-          <br>• Created promotional microsites, landing pages, image enhancements, and ad banners.
-          <br>• Served as Officer-In-Charge, supervising the Web Team and coordinating deliverables.
-          <br>• Developed a standardized website template system that reduced page development time by 30%, accelerating project delivery across the team.
-          <br>• Stepped up as Acting Team Lead for 1.5 years, overseeing a 4-person Web Design team and maintaining productivity and deliverables in the supervisor's absence.
-    </span></li>
-    <li><b>2007</b><span><em>BS Computer Science, AMA Computer University</em>Best in Web Design Contest awardee.</span></li>
+  <div class="job"><h3>Web Designer &amp; SEO Specialist · Triple Crown Athletic LLC</h3><div class="meta">Freelance, remote · June 2019 – Present</div>
+    <ul><li>Lead web and graphic designer for a 7-year engagement; also SEO specialist, graphic designer, video editor and social media manager.</li>
+    <li>Produce branded graphics, social content and video using Photoshop, Canva and DaVinci Resolve.</li>
+    <li>Currently supporting about 5 US clients across fitness, education, BPO and wellness.</li></ul></div>
+  <div class="job"><h3>Web Designer · AAMP Agency</h3><div class="meta">Independent contractor, remote (Las Vegas, US) · April 2023 – November 2025</div>
+    <ul><li>Developed and maintained 200+ responsive client websites in WordPress and Duda, covering UI/UX, performance and cross-browser compatibility.</li>
+    <li>Ran on-page and off-page SEO: keyword research, backlink building and Google Analytics monitoring.</li>
+    <li>Optimized images and media for faster load times, and handled routine maintenance and troubleshooting to keep sites up.</li></ul></div>
+  <div class="job"><h3>Web Designer &amp; SEO Specialist · Virtual Assistant</h3><div class="meta">Part-time, remote · 2022 – January 2026</div>
+    <ul><li>Four years of web design and SEO for clients in education, medical, wellness, solar, Bitcoin and utility services.</li>
+    <li>Designed and launched sites for Dare2Lift, Respira Global, One Life Mind and Body, Learneum, Fund 4 Solar, Beyond Technology Education and CreateFirm in WordPress, Squarespace and Wix.</li>
+    <li>Ran SEO audits and on-page optimizations on every project.</li></ul></div>
+  <div class="job"><h3>Web &amp; Graphic Designer · Asia Premier One Source</h3><div class="meta">February 2018 – March 2019</div>
+    <ul><li>Delivered two major WordPress sites with custom themes and maintained on-page SEO.</li>
+    <li>Ran monthly Mailchimp email campaigns for Shopify and ShareASale products; made social banners and promo videos.</li>
+    <li>Moved to the marketing team to build presentations, recruitment collateral and competitive analysis.</li></ul></div>
+  <div class="job"><h3>Web Designer · H.I.S. Philippines Travel</h3><div class="meta">September 2015 – March 2017</div>
+    <ul><li>Built the company’s English marketing website from scratch, integrated with a mobile app.</li>
+    <li>Set up a VPN linking two branches and built a BIR-compliant invoice system in Visual Basic 6.0.</li></ul></div>
+  <div class="job" style="padding-bottom:0"><h3>Web Designer · Asiatravel Philippines Inc.</h3><div class="meta">January 2008 – September 2015</div>
+    <ul><li>Produced 3,000+ hotel landing pages across Asia on the company’s proprietary CMS.</li>
+    <li>Led monthly email campaigns and created microsites, landing pages and ad banners.</li>
+    <li>Served as Officer-in-Charge, supervising the web team.</li></ul></div>
+  <h3 style="margin:24px 0 6px;font-size:18px">Highlights</h3>
+  <ul>
+    <li>Built a standardized website template system that cut page development time by 30%.</li>
+    <li>Acting team lead for 1.5 years, overseeing a four-person web design team.</li>
+    <li>Self-directed: completes website projects independently and stays available beyond standard hours.</li>
   </ul>
-</div></section>
+</section>
 
-<section id="skills"><div class="wrap">
-  <h2>Skills and tools</h2>
-  <div class="skills">
-    <h3>Web and design</h3><p>WordPress, Duda, Squarespace, Wix, Elementor, Divi, HTML, CSS3, Bootstrap, Figma, Adobe XD, Photoshop, Illustrator, After Effects, Canva, DaVinci Resolve</p>
-    <h3>SEO and analytics</h3><p>On-page SEO, Google Analytics, Search Console, Tag Manager, Google Business Profile, Google Ads, Looker Studio, SEMrush, Ahrefs, Ubersuggest, Lighthouse, conversion rate optimization</p>
-    <h3>Marketing and tools</h3><p>Mailchimp, HubSpot, WooCommerce, Shopify, Facebook and YouTube Ads, Asana, Trello, Slack, cPanel, ManageWP</p>
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skillgroup"><h3>Web &amp; design</h3><div class="skills"><span>WordPress</span><span>Duda</span><span>Squarespace</span><span>Wix</span><span>Elementor</span><span>Beaver Builder</span><span>Divi</span><span>HTML</span><span>CSS3</span><span>Bootstrap</span><span>Photoshop</span><span>Illustrator</span><span>After Effects</span><span>DaVinci Resolve</span><span>Canva</span><span>Figma</span><span>Responsive design</span><span>CMS migration</span></div></div>
+  <div class="skillgroup"><h3>SEO &amp; analytics</h3><div class="skills"><span>On-page SEO</span><span>Google Analytics</span><span>Search Console</span><span>Tag Manager</span><span>Google My Business</span><span>Google Ads</span><span>Looker Studio</span><span>SEMrush</span><span>Ubersuggest</span><span>Site audits</span><span>Lighthouse</span><span>Site speed</span><span>CRO</span></div></div>
+  <div class="skillgroup"><h3>Marketing &amp; tools</h3><div class="skills"><span>Mailchimp</span><span>WooCommerce</span><span>Shopify</span><span>HubSpot</span><span>Asana</span><span>Trello</span><span>Teamwork</span><span>Slack</span><span>Microsoft Teams</span><span>cPanel</span><span>ManageWP</span><span>Social media</span><span>Facebook &amp; YouTube Ads</span><span>Competitor analysis</span></div></div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card"><h3>BS Computer Science · AMA Computer University, Manila</h3><p>2007 · Best in Web Design Contest awardee; active in the AMA Microsystem and AMA Frontliners organizations.</p></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Open to remote web design, SEO and virtual assistant work with US teams.</p>
+  <div class="btns">
+    <a class="btn primary" href="mailto:ahrean9820@gmail.com">ahrean9820@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/mark-joseph-navarro-b8444862">LinkedIn</a>
+    <a class="btn" href="https://www.behance.net/ahrean9820">Behance</a>
+    <a class="btn" href="https://dribbble.com/ahreanx">Dribbble</a>
   </div>
-</div></section>
+</section>
 
-<section id="contact"><div class="wrap">
-  <h2>Let’s talk about your website</h2>
-  <p>Tell me what you’re building or what isn’t working, and I’ll reply with next steps.</p>
-  <p><a href="mailto:ahrean9820@gmail.com">Email me</a><br>
-  <a href="https://www.linkedin.com/in/mark-joseph-navarro-b8444862">LinkedIn</a> · <a href="https://www.behance.net/ahrean9820">Behance</a> · <a href="https://dribbble.com/ahreanx">Dribbble</a></p>
-</div></section>
-
-<footer><div class="wrap">© 2026 Mark Joseph Navarro. Based in Manila, Philippines.</div></footer>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Mark Joseph Navarro","jobTitle":"Web Designer and SEO Specialist","email":"ahrean9820@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Manila","addressCountry":"PH"},"alumniOf":"AMA Computer University","sameAs":["https://www.behance.net/ahrean9820","https://www.linkedin.com/in/mark-joseph-navarro-b8444862"]}
-</script>
+<footer>Mark Joseph Navarro · Manila, Philippines</footer>
+</div>
 </body>
 </html>
